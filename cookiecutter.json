@@ -1,0 +1,13 @@
+{
+	"full_name": "Rosalind Franklin",
+	"email": "{{ cookiecutter.full_name.lower().replace(' ', '.') }}@czbiohub.org",
+	"organization": "Chan Zuckerberg Biohub",
+	"github_username": "czbiohub",
+	"project_name": "Python Boilerplate",
+	"repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+	"project_short_description": "{{ cookiecutter.project_name }} contains all the boilerplate you need to create a Python package.",
+	"release_date": "{% now 'local' %}",
+	"year": "{{ cookiecutter.release_date[:4] }}",
+	"license": "MIT",
+	"version": "0.1.0"
+}
